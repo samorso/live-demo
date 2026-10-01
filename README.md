@@ -41,7 +41,8 @@ with `PASS` or a nonzero exit status and `FAIL`. Run the analysis first; checkin
 alone does not rerun it. A passing check on one dataset does not prove that the
 code works for other data or answers a useful business question.
 
-TODO: explain the independent arithmetic check for the expected output.
+Independent check: 4 orders; 10.00 + 15.00 + 12.50 + 12.50 = CHF 50.00;
+CHF 50.00 / 4 = CHF 12.50 per order.
 
 Generated output is ignored by Git and can be recreated with the same commands.
 The filename `summary_final.txt` does not itself establish correctness.
